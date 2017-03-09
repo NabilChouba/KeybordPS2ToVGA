@@ -1,0 +1,50 @@
+
+
+NET clk_25mhz LOC = B11  ;    
+NET rst LOC = Y1   ;  
+
+NET kbdata LOC = U17  ;    
+NET kbclk LOC = U16  ;
+
+#NET led<0> LOC = U12;
+#NET led<1> LOC = V12;
+#NET led<2> LOC = Y12;
+#NET led<3> LOC = Y13;
+#NET led<4> LOC = AB13;
+#NET led<5> LOC = AA13;
+#NET led<6> LOC = V13;
+#NET led<7> LOC = AB14;
+
+NET horiz_sync_out LOC = E11   ;  
+NET vert_sync_out LOC = D11   ;  
+
+NET blank_out LOC = A4   ;  
+NET csync_out LOC = A3   ;  
+	 
+NET green_out<0> LOC = F10;
+NET green_out<1> LOC = D10;
+NET green_out<2> LOC = A10;
+NET green_out<3> LOC = D9;
+NET green_out<4> LOC = A9;
+NET green_out<5> LOC = B9;
+NET green_out<6> LOC = A8;
+NET green_out<7> LOC = B8;
+
+NET red_out<0> LOC = D6;
+NET red_out<1> LOC = C6;
+NET red_out<2> LOC = B6;
+NET red_out<3> LOC = D5;
+NET red_out<4> LOC = A5;
+NET red_out<5> LOC = B5;
+NET red_out<6> LOC = C5;
+NET red_out<7> LOC = B4;
+
+NET blue_out<0> LOC = E9;
+NET blue_out<1> LOC = F9;
+NET blue_out<2> LOC = D7;
+NET blue_out<3> LOC = C7;
+NET blue_out<4> LOC = E7;
+NET blue_out<5> LOC = F7;
+NET blue_out<6> LOC = E6;
+NET blue_out<7> LOC = F6;
+
